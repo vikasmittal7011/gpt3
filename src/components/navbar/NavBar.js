@@ -33,8 +33,8 @@ const NavBar = () => {
         <div className="gtp3__navbar-links-logo">
           <img src={logo} alt="logo" />
         </div>
+        <div className="gtp3__navbar-links-container">{menu()}</div>
       </div>
-      <div className="gtp3__navbar-links-container">{menu()}</div>
       <div className="gtp3__navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
